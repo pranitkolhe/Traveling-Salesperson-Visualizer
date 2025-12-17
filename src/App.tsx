@@ -175,11 +175,11 @@ export default function App() {
                   value={[numCities]}
                   onValueChange={(value) => setNumCities(value[0])}
                   min={4}
-                  max={105}
+                  max={30}
                   step={1}
                   className="mt-2"
                 />
-                {numCities > 12 && (
+                {numCities > 20 && (
                   <p className="text-sm text-amber-600 mt-2">
                     ⚠️ Held-Karp may be slow for {numCities} cities
                   </p>

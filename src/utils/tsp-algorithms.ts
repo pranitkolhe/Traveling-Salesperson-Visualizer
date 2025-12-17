@@ -107,7 +107,7 @@ export function heldKarpTSP(distanceMatrix: number[][]): TSPResult {
   const steps: AlgorithmStep[] = [];
   
   // For large graphs, this becomes too expensive
-  if (n > 15) {
+  if (n > 20) {
     return {
       path: [],
       cost: Infinity,
